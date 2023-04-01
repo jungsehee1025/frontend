@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    display:inline-block;
+    margin-right:2.2%;
+}
+
+.poster{
+    width:100%;
+    height:50%;
+    object-fit:contain;
+    display:inline-block;
+    border-radius:18px;
+}
+.movieName{
+    font-size:19px;
+    text-align: center;
+}
+.agg{
+    width: 18px;
+    height: 17px;
+}
+.a{
+    padding-left: 10%;
+}

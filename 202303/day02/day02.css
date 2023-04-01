@@ -1,0 +1,8 @@
+div{
+    width:300px;
+    height:300px;
+    display: inline-block;
+}
+.a{background-color: blue;}
+.b{background-color: yellow;}
+.c{background-color: red;}

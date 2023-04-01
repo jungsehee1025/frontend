@@ -1,0 +1,20 @@
+.box{
+    transform: translate(100px,100px);
+}
+.box:hover{
+    transform: translate(200px,200px);
+}
+.box2{
+    height:200px;
+    width:200px;
+    background-color: cornflowerblue;
+    /* transform: scale(3); */
+}
+.box2:hover{
+    /* transform: scale(5); */
+    transform: rotate(45deg);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay:0;
+    background-color: darkgreen;
+}
