@@ -1,0 +1,75 @@
+.weare{
+    width:60%;
+    height:500px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-bottom: 1px solid gainsboro;
+}
+.top{
+    width:100%;
+    height:20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.bottom{
+    display: flex;
+    margin: auto 0;
+}
+.title{
+    font-size: 50px;
+}
+.box{
+    width:22%;
+    height:fit-content;
+}
+.introduce{
+    display:flex;
+    flex-direction: column;
+}
+.iconBox{
+    width:100%;
+    height:fit-content;
+    color:rgb(26, 25, 100);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.large{
+    font-size:50px;
+    margin-bottom: 15px;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:18px;
+}
+
+.iconBox :hover{
+    transform: rotate(45deg);
+    transition-property:all;
+    transition-duration: 0.7s;
+}
+
+
+@media screen and (max-width:1024px) {
+    .top{
+        flex-direction: column;
+    }
+    .weare{
+        height:fit-content;
+        width:100%
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width:100%;
+        margin-top: 60px;
+    }
+}
